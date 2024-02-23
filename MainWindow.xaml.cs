@@ -40,7 +40,7 @@ namespace MTYourFirstnameLastname
 
         private void LoadSampleEmployees()
         {
-            employees.Add(new WeeklyEmployee { EmployeeId = 20, Name = "Mike", Type = EmployeeType.Weekly, WeeklySalary = 500 });
+            employees.Add(new WeeklyEmployee { EmployeeId = 20, Name = "Eugene", Type = EmployeeType.Weekly, WeeklySalary = 500 });
         }
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
