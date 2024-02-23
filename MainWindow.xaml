@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MTYourFirstnameLastname"
         mc:Ignorable="d"
-        Title="Wage Calculato - by Eugene Sang" Height="450" Width="500">
+        Title="Wage Calculato - By MTGarimaBhatia" Height="450" Width="500">
     <Grid Margin="5,5,5,5">
         <!-- Left Section -->
         <Grid.ColumnDefinitions>
