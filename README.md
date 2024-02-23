@@ -4,7 +4,7 @@ C# desktop app
 
 ## Student Info
 
-**Name:** Barima Bhatia
+**Name:** Garima Bhatia
 
 **Student ID:** 991708947
 
