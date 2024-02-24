@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MTYourFirstnameLastname
+namespace MTGarimaBhatia
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -206,7 +206,14 @@ namespace MTYourFirstnameLastname
 
         private void Viewemployee(Employee employee)
         {
-            if(employee.Type == EmployeeType.Weekly)
+            nameInput.Text = employee.Name;
+            employee.CalculateEarnings();
+
+            netOutput.Text = "$" + employee.NetEarnings.ToString();
+            grossOutput.Text = "$" + employee.Gross.ToString();
+            taxOutput.Text = "$" + employee.Tax.ToString();
+
+            if (employee.Type == EmployeeType.Weekly)
             {
                 weekklyRadioButton.IsChecked = true;
             }
@@ -219,12 +226,6 @@ namespace MTYourFirstnameLastname
                 hourlyRadioButton.IsChecked = true;
             }
 
-            nameInput.Text = employee.Name;
-            employee.CalculateEarnings();
-
-            netOutput.Text = "$" + employee.NetEarnings.ToString();
-            grossOutput.Text = "$" + employee.Gross.ToString();
-            taxOutput.Text = "$" + employee.Tax.ToString();
         }
     }
 }

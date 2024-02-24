@@ -1,4 +1,4 @@
-# MTYourFirstnameLastname
+# MTGarimaBhatia
 
 C# desktop app
 

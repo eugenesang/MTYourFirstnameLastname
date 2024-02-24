@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Automation.Peers;
-using static MTYourFirstnameLastname.MainWindow;
+using static MTGarimaBhatia.MainWindow;
 
-namespace MTYourFirstnameLastname
+namespace MTGarimaBhatia
 {
     public abstract class Employee
     {
