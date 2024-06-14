@@ -1,4 +1,6 @@
-# MTGarimaBhatia
+# C# Desktop APP
+
+Student: **Garima Bhatia**
 
 C# desktop app
 
